@@ -27,8 +27,7 @@ public class BrowserInit {
 		
 		if(platform.equalsIgnoreCase("ios"))
 		{
-		
-		System.out.println("/************* Selected platform = " + platform + " **********\\");
+			System.out.println("/************* Selected platform = " + platform + " **********\\");
 			
 		DesiredCapabilities capabilities = new DesiredCapabilities();
         
